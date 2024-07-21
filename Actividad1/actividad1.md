@@ -27,25 +27,26 @@
 
 <details>
 <summary>¿Que es un sistema operativo?</summary>
-  
-  Son las herramientas que utilizamos al trabajar en la computadora
-  
+
+Es el que hace que funcione la computadora,es la parte intengible de la computa.
+    
 </details>
     
 <details>
 <summary>¿Ques es un archivo?</summary>
-    
-  Es donde se almacena toda la información
 
+Es el sitio en donde yo guardo yo guardo todas las cosas importantes.
+     
 </details>
 
 
 <details>
 <summary>¿Que es una IP?</summary>  
 
-  Es una direccion en internet
+Es una direccion para poder ubicar un dispositivo en concreto y cada computadora tiene una ip diferente.
       
 </details>
+
 
 
 ## Persona 2
@@ -53,19 +54,24 @@
 <details>
 <summary>¿Que es un sistema operativo?</summary>
   
+  Son las herramientas que utilizamos al trabajar en la computadora.
+  
 </details>
     
 <details>
 <summary>¿Ques es un archivo?</summary>
-     
+    
+  Es donde se almacena toda la información.
+
 </details>
 
 
 <details>
 <summary>¿Que es una IP?</summary>  
+
+  Es una direccion en internet.
       
 </details>
-
 
 ## Conclusion
 
