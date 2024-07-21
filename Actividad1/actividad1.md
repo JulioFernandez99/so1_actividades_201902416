@@ -74,6 +74,5 @@ Es una direccion para poder ubicar un dispositivo en concreto y cada computadora
 </details>
 
 ## Conclusion
-
-
+Ambas personas son fuera del area de la informatica, pero tienen unos conceptos no tan alejados de la realidad, una de las preguntas mas acertadas fue sobre la IP, ambas dijeron que una direccion en internet, y efectivamente asi es, es una direccion para diferencias dispositivos dentro de una red.
 
