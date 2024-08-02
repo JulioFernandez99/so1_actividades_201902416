@@ -2,12 +2,10 @@
 
 <details>
 <summary>Creacion del usuario 1</summary>
-
         Para la creacion de un usuario es necesario utilizar el comando sudo adduser nombre_usuario. Al ejecutar este comando         establece un password.
-
-     <div align="center">
-        <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/creando_usuario1.png" style="width:50rem"></a>
-    </div>
+<div align="center">
+                <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/creando_usuario1.png" style="width:50rem"></a>
+        </div>
 
 </details>
 
