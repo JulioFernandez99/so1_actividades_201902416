@@ -115,7 +115,7 @@
     <summary>Agregar usuario1 a grupo1</summary>
     Para agregar un usuario a un grupo se utiliza el comando sudo usermod -aG grupo1  usuario1.
     <br>
-    En donde:
+    En donde:<br>
     a: (append): Añade el usuario al grupo sin eliminarlo de otros grupos a los que ya pertenece.<br>
     G: (group): Especifica el grupo al que quieres añadir el usuario.
     <br>
@@ -129,7 +129,7 @@
     <summary>Agregar usuario2 a grupo2</summary>
     Para agregar un usuario a un grupo se utiliza el comando sudo usermod -aG grupo2  usuario2.
     <br>
-    En donde:
+    En donde:<br>
     a: (append): Añade el usuario al grupo sin eliminarlo de otros grupos a los que ya pertenece.<br>
     G: (group): Especifica el grupo al que quieres añadir el usuario.
     <br>
