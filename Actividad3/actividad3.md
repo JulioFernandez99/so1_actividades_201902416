@@ -76,3 +76,74 @@
     </div>
 
 </details>
+
+
+# Parte 2 | Gestion de grupos
+
+<details>
+    <summary>Creacion de grupo 1</summary>
+    Para crear un grupo se utiliza el comando sudo groupadd nombre_grupo.
+    <br>
+        <div align="center">
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/P2_MIA_201902416/blob/main/FilesReportes/login.png" style="width:50rem"></a>
+    </div>
+
+</details>
+
+
+<details>
+    <summary>Creacion de grupo 2</summary>
+    Para crear un grupo se utiliza el comando sudo groupadd nombre_grupo.
+    <br>
+        <div align="center">
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/P2_MIA_201902416/blob/main/FilesReportes/login.png" style="width:50rem"></a>
+    </div>
+</details>
+
+<details>
+    <summary>Verficar creacion de grupos </summary>
+    Para verificar la creacion de grupos se utilizo el comando cat /etc/group, para poder observar la base de datos de grupos.
+    <br>
+        <div align="center">
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/P2_MIA_201902416/blob/main/FilesReportes/login.png" style="width:50rem"></a>
+    </div>
+    <br>
+    Tambien se podria utilizar el comando groups nombre_usuario para verificar a que grupo pertenece el usuario.
+</details>
+
+<details>
+    <summary>Agregar usuario1 a grupo1</summary>
+    Para agregar un usuario a un grupo se utiliza el comando sudo usermod -aG grupo1  usuario1.
+    <br>
+        <div align="center">
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/P2_MIA_201902416/blob/main/FilesReportes/login.png" style="width:50rem"></a>
+    </div>
+</details>
+
+
+<details>
+    <summary>Agregar usuario2 a grupo2</summary>
+    Para agregar un usuario a un grupo se utiliza el comando sudo usermod -aG grupo2  usuario2.
+    <br>
+        <div align="center">
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/P2_MIA_201902416/blob/main/FilesReportes/login.png" style="width:50rem"></a>
+    </div>
+</details>
+
+<details>
+    <summary>Verificando usuarios agregados a grupos</summary>
+    Para verificar que un usuario se ha agregado correctamente se utiliza el comando groups nombre_usuario para verificar a grupo pertenece el usuario.
+    <br>
+    <br>
+    Verificiando usuario1
+        <div align="center">
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/P2_MIA_201902416/blob/main/FilesReportes/login.png" style="width:50rem"></a>
+    </div>
+    <br>
+    <br>
+    Verificiando usuario2
+        <div align="center">
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/P2_MIA_201902416/blob/main/FilesReportes/login.png" style="width:50rem"></a>
+    </div>
+</details>
+
