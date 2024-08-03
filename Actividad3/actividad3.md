@@ -155,3 +155,75 @@
     </div>
 </details>
 
+# Parte 3 | Gestion de permisos
+
+<details>
+    <summary>Acceso a usuario</summary>
+    Para poder acceder desde un usuario a otro usuario es necesario ejecutar el comando  sudo -i -u nombre_usuario. 
+    <br>
+    En donde:
+    <br>
+    u: se utiliza para especificar el usuario con el que deseas ejecutar el comando. En el caso de sudo -i -u usuario1, -u usuario1 indica que se quiere ejecutar el comando como el usuario usuario1.
+    <br>
+    i:se utiliza para iniciar una sesión de shell interactiva como el usuario especificado. En el caso de sudo -i -u usuario1, -i abre una nueva sesión de shell como usuario1, lo que permite trabajar en la línea de comandos como si fuera ese usuario. Esto es útil si se necesita realizar varias acciones como el usuario objetivo.
+    <br>
+        <div align="center">
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/crando_grupo2.png" style="width:50rem"></a>
+    </div>
+</details>
+
+
+<details>
+    <summary>Creacion archivo</summary>
+    Para poder crear un archivo se utiliza el comando touch nombre_usuario.extension
+    <br>
+        <div align="center">
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/crando_grupo2.png" style="width:50rem"></a>
+    </div>
+</details>
+
+<details>
+    <summary>Creacion de directorio</summary>
+    Para poder crear un directorio se utiliza el comando mkdir nombre_directorio
+    <br>
+        <div align="center">
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/crando_grupo2.png" style="width:50rem"></a>
+    </div>
+</details>
+
+
+<details>
+    <summary>Escribir en un archivo</summary>
+    Para poder escribir en un archivo se utiliza el comando vi nombre_archivo.extension dando la opcion de escribir en el archivo, para salir de esa opcion precionar : y escribir el codigo que desee.
+    <br>
+    Por ejemplo:<br>
+    :w -> Guarda el archivo.<br>
+    :wq o :x -> Guarda el archivo y sale.<br>
+    :q -> Sale (solo si no hay cambios sin guardar).<br>
+    :q! -> Sale sin guardar los cambios.
+    <br>
+        <div align="center">
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/crando_grupo2.png" style="width:50rem"></a>
+    </div>
+</details>
+
+<details>
+    <summary>Creacion de directorio</summary>
+    Para poder crear un directorio se utiliza el comando mkdir nombre_directorio
+    <br>
+        <div align="center">
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/crando_grupo2.png" style="width:50rem"></a>
+    </div>
+</details>
+
+
+<details>
+    <summary>Agregar permisos root a usuarios</summary>
+    Para otorgar permisos root es necesario acceder al archivo /etc/sudoers y agregar los permisos usuario1 ALL=(ALL) ALL.
+    <br>
+        <div align="center">
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/crando_grupo2.png" style="width:50rem"></a>
+    </div>
+</details>
+
+
