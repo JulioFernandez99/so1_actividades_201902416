@@ -168,7 +168,7 @@
     i:se utiliza para iniciar una sesión de shell interactiva como el usuario especificado. En el caso de sudo -i -u usuario1, -i abre una nueva sesión de shell como usuario1, lo que permite trabajar en la línea de comandos como si fuera ese usuario. Esto es útil si se necesita realizar varias acciones como el usuario objetivo.
     <br>
         <div align="center">
-            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/crando_grupo2.png" style="width:50rem"></a>
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/inicio_U1.png" style="width:50rem"></a>
     </div>
 </details>
 
@@ -178,7 +178,7 @@
     Para poder crear un archivo se utiliza el comando touch nombre_usuario.extension
     <br>
         <div align="center">
-            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/crando_grupo2.png" style="width:50rem"></a>
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/creacion_A1U1.png" style="width:50rem"></a>
     </div>
 </details>
 
@@ -187,7 +187,7 @@
     Para poder crear un directorio se utiliza el comando mkdir nombre_directorio
     <br>
         <div align="center">
-            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/crando_grupo2.png" style="width:50rem"></a>
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/creado_D1U1.png" style="width:50rem"></a>
     </div>
 </details>
 
@@ -203,27 +203,34 @@
     :q! -> Sale sin guardar los cambios.
     <br>
         <div align="center">
-            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/crando_grupo2.png" style="width:50rem"></a>
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/escribiendo_A1U1.png" style="width:50rem"></a>
     </div>
-</details>
-
-<details>
-    <summary>Creacion de directorio</summary>
-    Para poder crear un directorio se utiliza el comando mkdir nombre_directorio
     <br>
-        <div align="center">
-            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/crando_grupo2.png" style="width:50rem"></a>
+    Ahora si se hace un cat al archivo se mostrara el texto escrito.
+    <div align="center">
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/lectura_A1U1.png" style="width:50rem"></a>
     </div>
 </details>
-
 
 <details>
     <summary>Agregar permisos root a usuarios</summary>
     Para otorgar permisos root es necesario acceder al archivo /etc/sudoers y agregar los permisos usuario1 ALL=(ALL) ALL.
     <br>
         <div align="center">
-            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/crando_grupo2.png" style="width:50rem"></a>
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/sudores.png" style="width:50rem"></a>
     </div>
 </details>
 
+<details>
+    <summary>Cambio de permisos a un archivo</summary>
+    Para cambiar los permisos de un archivo se utiliza el comando chmod permiso archivo.extension
+    <br>
+        <div align="center">
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/modificar_permisos_A1U1.png" style="width:50rem"></a>
+    </div>
+</details>
 
+<details>
+    <summary>Cambio de propietario de archivo</summary>
+    Para cambiar el grupo de un archivo, ejecutar el archivo chgrp grupo archivo.extension
+</details>
