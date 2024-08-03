@@ -85,7 +85,7 @@
     Para crear un grupo se utiliza el comando sudo groupadd nombre_grupo.
     <br>
         <div align="center">
-            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/P2_MIA_201902416/blob/main/FilesReportes/login.png" style="width:50rem"></a>
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/creando_grupo1.png" style="width:50rem"></a>
     </div>
 
 </details>
@@ -96,7 +96,7 @@
     Para crear un grupo se utiliza el comando sudo groupadd nombre_grupo.
     <br>
         <div align="center">
-            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/P2_MIA_201902416/blob/main/FilesReportes/login.png" style="width:50rem"></a>
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/crando_grupo2.png" style="width:50rem"></a>
     </div>
 </details>
 
@@ -105,7 +105,7 @@
     Para verificar la creacion de grupos se utilizo el comando cat /etc/group, para poder observar la base de datos de grupos.
     <br>
         <div align="center">
-            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/P2_MIA_201902416/blob/main/FilesReportes/login.png" style="width:50rem"></a>
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/cat_grupos.png" style="width:50rem"></a>
     </div>
     <br>
     Tambien se podria utilizar el comando groups nombre_usuario para verificar a que grupo pertenece el usuario.
@@ -115,8 +115,12 @@
     <summary>Agregar usuario1 a grupo1</summary>
     Para agregar un usuario a un grupo se utiliza el comando sudo usermod -aG grupo1  usuario1.
     <br>
+    En donde:
+    a: (append): Añade el usuario al grupo sin eliminarlo de otros grupos a los que ya pertenece.
+    G: (group): Especifica el grupo al que quieres añadir el usuario.
+    <br>
         <div align="center">
-            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/P2_MIA_201902416/blob/main/FilesReportes/login.png" style="width:50rem"></a>
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/agregando_U1G1.png" style="width:50rem"></a>
     </div>
 </details>
 
@@ -125,8 +129,12 @@
     <summary>Agregar usuario2 a grupo2</summary>
     Para agregar un usuario a un grupo se utiliza el comando sudo usermod -aG grupo2  usuario2.
     <br>
+    En donde:
+    a: (append): Añade el usuario al grupo sin eliminarlo de otros grupos a los que ya pertenece.
+    G: (group): Especifica el grupo al que quieres añadir el usuario.
+    <br>
         <div align="center">
-            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/P2_MIA_201902416/blob/main/FilesReportes/login.png" style="width:50rem"></a>
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/agregando_U2G2.png" style="width:50rem"></a>
     </div>
 </details>
 
@@ -137,13 +145,13 @@
     <br>
     Verificiando usuario1
         <div align="center">
-            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/P2_MIA_201902416/blob/main/FilesReportes/login.png" style="width:50rem"></a>
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/verf_grupo1.png" style="width:50rem"></a>
     </div>
     <br>
     <br>
     Verificiando usuario2
         <div align="center">
-            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/P2_MIA_201902416/blob/main/FilesReportes/login.png" style="width:50rem"></a>
+            <a href="" target="_blank"><img src="https://github.com/JulioFernandez99/so1_actividades_201902416/blob/main/Recursos/Actividad3/verf_grupo2.png" style="width:50rem"></a>
     </div>
 </details>
 
