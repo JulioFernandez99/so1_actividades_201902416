@@ -14,11 +14,6 @@
 ![](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
 
-<div style="text-align: center;">
-    <span style="font-size: 25px;"><strong>ACTIVIDAD 6</strong></span>
-</div>
-<br>
-
 El **Completely Fair Scheduler (CFS)** es el planificador de procesos por defecto en el núcleo de Linux desde la versión 2.6.23 (lanzada en 2007). CFS se introdujo para mejorar el rendimiento del sistema en situaciones donde múltiples procesos compiten por tiempo de CPU, logrando una asignación de tiempo de CPU más justa y eficiente en comparación con los planificadores anteriores. A continuación se detallan sus características principales y su funcionamiento:
 
 ### Características Principales de CFS:
