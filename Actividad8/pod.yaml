@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: activaida8-sopes-mtd
+  labels:
+    name: activaida8-sopes-label
+    semestre: '2-2024'
+spec:
+  containers:
+    - name: actividad8
+      image: nginx:1.27.2
+      ports:
+        - containerPort: 80
+      resources:
+        limits:
+          cpu: "128m"
+          memory: "500Mi"  # Limite de memoria
+        requests:
+          cpu: "64m"        # Solicitud de CPU más baja que el límite
+          memory: "256Mi"   # Solicitud de memoria más baja que el límite

@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: actividad8-deployment
+  labels:
+    app: actividad8
+spec:
+  replicas: 2  # Número de réplicas
+  selector:
+    matchLabels:
+      app: actividad8
+  template:
+    metadata:
+      labels:
+        app: actividad8
+    spec:
+      containers:
+      - name: actividad8
+        image: nginx:1.27.2  # Imagen de NGINX
+        ports:
+        - containerPort: 80
+        resources:
+          limits:
+            cpu: "128m"
+            memory: "500Mi"
+          requests:
+            cpu: "64m"
+            memory: "256Mi"
